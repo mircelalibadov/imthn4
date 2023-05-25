@@ -1,0 +1,207 @@
+header {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp");
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .logo {
+  cursor: pointer;
+}
+header nav .logo h5 {
+  color: white;
+  font-size: 30px;
+}
+header nav .navbar_nav {
+  display: flex;
+  gap: 20px;
+}
+header nav .navbar_nav a {
+  text-decoration: none;
+  color: white;
+}
+header nav p {
+  background-color: #fd784f;
+  padding: 10px;
+  max-height: 30px;
+  color: white;
+  font-size: 20px;
+}
+header nav button {
+  display: none;
+  background-color: inherit;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: 0px;
+  font-size: 20px;
+}
+header h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  padding: 200px;
+}
+@media screen and (max-width: 768px) {
+  header nav .navbar_nav {
+    display: none;
+  }
+  header nav p {
+    display: none;
+  }
+  header nav button {
+    display: block;
+  }
+  header h1 {
+    font-size: 60px;
+    max-width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+main .featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+main .featured hr {
+  height: 10px;
+  width: 5px;
+  background-color: #fd784f;
+  color: #fd784f;
+}
+main .featured h2 {
+  font-size: 25px;
+}
+main .featured p {
+  font-size: 20px;
+  color: rgb(130, 134, 134);
+}
+main .featured_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+main .featured_card .room_img {
+  width: 32%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #edeff4;
+}
+main .featured_card .room_img h5 {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  background-color: #fd784f;
+  padding: 10px;
+  color: white;
+}
+main .featured_card .room_img .img {
+  max-width: 100%;
+}
+main .featured_card .room_img .bedroom_img {
+  display: flex;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+main .featured_card .room_img .room_tags {
+  display: flex;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+main .featured_card .room_img .room_tags a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fd784f;
+  color: white;
+}
+main .featured_card .room_img .for_sale {
+  display: flex;
+  gap: 20px;
+  background-color: #1e2c4e;
+  padding: 10px;
+}
+main .featured_card .room_img .for_sale img {
+  max-width: 10%;
+  width: 100%;
+}
+main .featured_card .room_img .for_sale div {
+  color: white;
+}
+main .featured_card .room_img:hover {
+  box-shadow: 5px 5px 5px 5px rgb(100, 93, 93);
+}
+@media screen and (max-width: 768px) {
+  main .featured_card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  main .featured_card .room_img {
+    width: 100%;
+  }
+}
+main .CLIENTS {
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg.webp");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+main .CLIENTS hr {
+  height: 10px;
+  width: 5px;
+  background-color: #fd784f;
+}
+main .CLIENTS h5 {
+  color: #fd784f;
+}
+main .CLIENTS p {
+  width: 60%;
+}
+main .prefer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+main .prefer hr {
+  height: 10px;
+  width: 5px;
+  background-color: #fd784f;
+  color: #fd784f;
+}
+main .prefer h2 {
+  font-size: 25px;
+}
+main .prefer p {
+  font-size: 20px;
+  color: rgb(130, 134, 134);
+}/*# sourceMappingURL=main.css.map */

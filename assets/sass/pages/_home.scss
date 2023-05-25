@@ -1,0 +1,159 @@
+main {
+    max-width: 1440px;
+    margin: auto;
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+
+        hr {
+            height: 10px;
+            width: 5px;
+            background-color: #fd784f;
+            color: #fd784f;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 20px;
+            color: rgb(130, 134, 134);
+        }
+    }
+
+    .featured_card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        
+        .room_img {
+            width: 32%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            background-color: #edeff4;
+            
+            
+
+            h5 {
+                position: absolute;
+                left: 10px;
+                top: 20px;
+                background-color: #fd784f;
+                padding: 10px;
+                color: white;
+            }
+
+            .img {
+                max-width: 100%;
+            }
+
+            .bedroom_img {
+                display: flex;
+                gap: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+
+                
+            }
+            .room_tags{
+                a{
+                    text-decoration: none;
+                    padding: 10px;
+                    background-color: #fd784f;
+                    color: white;
+                }
+                display: flex;
+                gap: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+
+            }
+            .for_sale{
+                display: flex;
+                gap: 20px;
+                background-color:#1e2c4e;
+                padding: 10px;
+                img{
+                    max-width: 10%;
+                    width: 100%;
+                }
+                div{
+                    color: white;
+                }
+                
+
+            }
+        }
+        .room_img:hover{
+            box-shadow: 5px 5px 5px 5px rgb(100, 93, 93);
+        }
+        @media screen and (max-width:768px){
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            .room_img{
+                width: 100%;
+                
+            }
+        }
+    }
+.CLIENTS{
+    background-image: url("https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg.webp");
+    color: white;
+    hr{
+        height: 10px;
+        width: 5px;
+        background-color: #fd784f;
+    }
+    h5{
+        color: #fd784f;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    p{
+        width: 60%;
+    }
+}
+.prefer{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        gap: 20px;
+
+        hr {
+            height: 10px;
+            width: 5px;
+            background-color: #fd784f;
+            color: #fd784f;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 20px;
+            color: rgb(130, 134, 134);
+        }
+    }
+    
+}
+
+
+

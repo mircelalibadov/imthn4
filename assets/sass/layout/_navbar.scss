@@ -1,0 +1,68 @@
+header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp");
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .logo{
+            
+            h5{
+                color: white;
+                font-size: 30px;
+            }
+            cursor: pointer;
+        }
+        .navbar_nav{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            display:flex ;
+            gap: 20px;
+        }
+        p{
+            background-color: #fd784f;
+            padding: 10px;
+            max-height: 30px;
+            color: white;
+            font-size: 20px;
+        }
+        button{
+            display: none;
+            background-color: inherit;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border: 0px;
+            font-size: 20px;
+        }
+    }
+    h1{
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        padding: 200px;
+    }
+     @media screen and (max-width:768px){
+        nav{
+            .navbar_nav{
+                display: none;
+            }
+            p{
+                display: none;
+            }
+            button{
+                display: block;
+            }
+        }
+        h1{
+            font-size: 60px;
+            max-width: 100%;
+        }
+     }
+}
